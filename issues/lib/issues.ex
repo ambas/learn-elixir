@@ -15,4 +15,8 @@ defmodule Issues do
   def hello do
     :world
   end
+
+  def hello(:world_in_the_morning) do
+    :world_in_the_morning
+  end
 end
